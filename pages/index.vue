@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <div>
+    <Header />
+
+    <!-- <div>
       <Logo />
       <h1 class="title">
         personal-website
@@ -23,12 +25,17 @@
           GitHub
         </a>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
-export default {}
+import Header from '../components/Header/header.vue'
+export default {
+  components: {
+    Header
+  }
+}
 </script>
 
 <style>
